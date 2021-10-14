@@ -125,3 +125,5 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "main/static")
 ]
+
+EMAIL_PORT = 1025
